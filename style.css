@@ -1,0 +1,52 @@
+.courtnaire{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+    grid-template-areas:
+    "box1 box2"
+    "box3 box4";
+    padding: 10px;
+}
+.box1{
+    background-color:#38fa48;
+    padding: 10px;
+    border-radius: 10px ;
+    text-align: center;
+    grid-area: box1;
+}
+.box2{
+    background-color: #38fa48;
+    padding: 10px;
+    border-radius: 10px ;
+    text-align: center;
+    grid-area: box2;
+}
+.box3{
+    background-color: #38fa48;
+    padding: 10px;
+    border-radius: 10px ;
+    text-align: center;
+    grid-area: box3;
+}
+.box4{
+    background-color: #38fa48;
+    padding: 10px;
+    border-radius: 10px ;
+    text-align: center;
+    grid-area: box4;
+}
+
+
+img {
+   max-width: 90%;
+   height: auto;
+   border-radius: 10px;
+   position: relative;
+}
+
+button{
+    border-radius: 5px;
+    color: blueviolet;
+    background-color: #51414122;
+}
+
